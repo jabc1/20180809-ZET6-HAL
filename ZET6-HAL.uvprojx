@@ -336,7 +336,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F103xE</Define>
               <Undefine></Undefine>
-              <IncludePath>.\App;.\Croe;.\HAL_Drive\STM32F1xx_HAL_Driver\Inc;.\HAL_Drive\STM32F1xx_HAL_Driver\Inc\Legacy;.\User;.\Sys;.\Custom</IncludePath>
+              <IncludePath>.\App;.\Croe;.\HAL_Drive\STM32F1xx_HAL_Driver\Inc;.\HAL_Drive\STM32F1xx_HAL_Driver\Inc\Legacy;.\User;.\Sys;.\Custom;.\App</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -604,6 +604,61 @@
               <FileName>stm32f1xx_it.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\User\stm32f1xx_it.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>App</GroupName>
+          <Files>
+            <File>
+              <FileName>queue.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\App\queue.c</FilePath>
+            </File>
+            <File>
+              <FileName>queue.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\App\queue.h</FilePath>
+            </File>
+            <File>
+              <FileName>adc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\App\adc.c</FilePath>
+            </File>
+            <File>
+              <FileName>adc.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\App\adc.h</FilePath>
+            </File>
+            <File>
+              <FileName>Ranging.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\App\Ranging.c</FilePath>
+            </File>
+            <File>
+              <FileName>Ranging.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\App\Ranging.h</FilePath>
+            </File>
+            <File>
+              <FileName>flash.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\App\flash.c</FilePath>
+            </File>
+            <File>
+              <FileName>flash.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\App\flash.h</FilePath>
+            </File>
+            <File>
+              <FileName>updata.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\App\updata.c</FilePath>
+            </File>
+            <File>
+              <FileName>updata.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\App\updata.h</FilePath>
             </File>
           </Files>
         </Group>
